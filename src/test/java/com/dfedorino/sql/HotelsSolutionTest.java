@@ -33,7 +33,7 @@ class HotelsSolutionTest {
 
     @Test
     void task1() throws Exception {
-        String sql = Files.readString(Path.of("src/test/resources/hotels/task1/task1-solution.sql"));
+        String sql = Files.readString(Path.of("src/test/resources/hotels/task1/task1-solution-h2.sql"));
 
         List<Map<String, Object>> results = jdbcTemplate.queryForList(sql);
 
@@ -74,7 +74,7 @@ class HotelsSolutionTest {
 
     @Test
     void task3() throws Exception {
-        String sql = Files.readString(Path.of("src/test/resources/hotels/task3/task3-solution.sql"));
+        String sql = Files.readString(Path.of("src/test/resources/hotels/task3/task3-solution-h2.sql"));
 
         List<Map<String, Object>> results = jdbcTemplate.queryForList(sql);
 
