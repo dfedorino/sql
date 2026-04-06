@@ -31,7 +31,7 @@ class VehiclesSolutionTest {
 
     @Test
     void task1() throws Exception {
-        String sql = Files.readString(Path.of("src/test/resources/vehicles/task1-solution.sql"));
+        String sql = Files.readString(Path.of("src/test/resources/vehicles/task1/task1-solution.sql"));
 
         List<Map<String, Object>> results = jdbcTemplate.queryForList(sql);
 
@@ -44,7 +44,7 @@ class VehiclesSolutionTest {
 
     @Test
     void task2() throws Exception {
-        String sql = Files.readString(Path.of("src/test/resources/vehicles/task2-solution.sql"));
+        String sql = Files.readString(Path.of("src/test/resources/vehicles/task2/task2-solution.sql"));
 
         List<Map<String, Object>> results = jdbcTemplate.queryForList(sql);
 
