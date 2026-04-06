@@ -15,7 +15,7 @@ import java.util.Map;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-class VehicleSolutionTest {
+class VehiclesSolutionTest {
 
     public static final String DB_URL = "jdbc:h2:mem:testdb;MODE=MySQL";
     static JdbcTemplate jdbcTemplate;
